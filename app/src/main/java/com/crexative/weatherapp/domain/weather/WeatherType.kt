@@ -1,7 +1,7 @@
-package com.plcoding.weatherapp.domain.weather
+package com.crexative.weatherapp.domain.weather
 
 import androidx.annotation.DrawableRes
-import com.plcoding.weatherapp.R
+import com.crexative.weatherapp.R
 
 sealed class WeatherType(
     val weatherDesc: String,

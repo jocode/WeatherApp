@@ -1,4 +1,4 @@
-package com.plcoding.weatherapp.presentation.ui.theme
+package com.crexative.weatherapp.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

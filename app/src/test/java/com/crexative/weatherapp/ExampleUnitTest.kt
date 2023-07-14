@@ -1,4 +1,4 @@
-package com.plcoding.weatherapp
+package com.crexative.weatherapp
 
 import org.junit.Test
 
