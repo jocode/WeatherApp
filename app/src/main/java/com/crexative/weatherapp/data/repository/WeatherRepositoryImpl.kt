@@ -5,8 +5,9 @@ import com.crexative.weatherapp.data.remote.WeatherApi
 import com.crexative.weatherapp.domain.repository.WeatherRepository
 import com.crexative.weatherapp.domain.util.Resource
 import com.crexative.weatherapp.domain.weather.WeatherInfo
+import javax.inject.Inject
 
-class WeatherRepositoryImpl(
+class WeatherRepositoryImpl @Inject constructor(
     private val api: WeatherApi
 ): WeatherRepository {
     override suspend fun getWeatherData(lat: Double, long: Double): Resource<WeatherInfo> {
